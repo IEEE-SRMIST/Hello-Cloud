@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import About from './components/about/About';
+import Landing from './components/landing/Landing';
+import Backdrop from './components/layouts/Backdrop';
+import Footer from './components/layouts/Footer';
+import Navbar from './components/layouts/Navbar';
+import Perks from './components/perks/Perks';
+import Speakers from './components/speakers/Speakers';
+import Sponsors from './components/sponsors/Sponsors';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='w-full h-screen relative'>
+			<Navbar />
+			<Backdrop />
+			<Landing />
+			<About />
+			<Perks />
+			<Sponsors />
+			<Speakers />
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
