@@ -18,7 +18,7 @@ function App() {
 			<Perks />
 			<Sponsors />
 			<Speakers />
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
 }
