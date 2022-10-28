@@ -9,18 +9,18 @@ import Speakers from './components/speakers/Speakers';
 import Sponsors from './components/sponsors/Sponsors';
 
 function App() {
-  return (
-    <div className="w-full h-screen relative">
-      <Navbar />
-      <Backdrop />
-      <Landing />
-      <About />
-      <Perks />
-      <Sponsors />
-      <Speakers />
-      <Footer />
-    </div>
-  );
+	return (
+		<div className='w-full h-screen relative'>
+			<Navbar />
+			<Backdrop />
+			<Landing />
+			<About />
+			<Perks />
+			<Sponsors />
+			<Speakers />
+			{/* <Footer /> */}
+		</div>
+	);
 }
 
 export default App;
