@@ -2,7 +2,7 @@ import React from 'react';
 
 const Landing = () => {
   return (
-    <div className="z-10 w-full h-screen">
+    <div className="z-10  h-screen ">
       <div className="md:mt-42 md:ml-44 mt-32 ml-9 ">
         <div>
           <h1 className='md:text-7xl font-["Orbitron"] text-5xl '>
