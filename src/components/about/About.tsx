@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="z-10 w-full h-screen  bg-gradient-to-b from-transparent backdrop-blur-sm to-black/80 px-8 md:px-20">
+    <div className="z-10 w-full pb-40 bg-gradient-to-b from-transparent backdrop-blur-sm to-black/80 px-8 md:px-20" id="about">
       <h2 className='font-["Orbitron"] font-semibold text-[40px] leading-[50.16px] text-center'>
         About the Event
       </h2>

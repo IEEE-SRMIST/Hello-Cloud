@@ -1,6 +1,10 @@
 import React from 'react';
 
 const Landing = () => {
+  const handleOpenRegistration = () => {
+    window.open('https://jb7kavpfeh8.typeform.com/to/vvqN6jkq', '_blank');
+  };
+
   return (
     <div className="z-10  h-screen ">
       <div className="md:mt-42 md:ml-44 mt-32 ml-9 ">
@@ -10,7 +14,10 @@ const Landing = () => {
           </h1>
         </div>
         <div className="mt-2">
-          <button className="bg-white hover:bg-gray-300 border rounded-full px-4 py-2">
+          <button
+            className="bg-white hover:bg-gray-300 border rounded-full px-4 py-2"
+            onClick={handleOpenRegistration}
+          >
             <h1 className="text-2xl text-black">Register</h1>
           </button>
         </div>
