@@ -25,7 +25,7 @@ const Speakers = () => {
   };
 
   return (
-    <div className="flex flex-col items-center z-10 w-full backdrop-blur-sm bg-black/80">
+    <div className="flex flex-col items-center z-10 w-full">
       <div className='text-[40px] font-["Orbitron"] mt-16 mb-10'>Speaker</div>
       <img className="h-60 w-60 mt-10" src={KK} alt="KK dp" />
       <div className='text-[32px] font-["Lato"] my-8'>Kaushik Kumaran</div>

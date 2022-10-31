@@ -3,10 +3,7 @@ import Salseforce from '../../assets/img/Salesforce_removedbg.png';
 
 const Sponsors = () => {
   return (
-    <div
-      className="flex flex-col items-center z-10 w-full pb-40 backdrop-blur-sm bg-black/80"
-      id="sponsors"
-    >
+    <div className="flex flex-col items-center z-10 w-full pb-40" id="sponsors">
       <div className='text-[40px] font-["Orbitron"] my-16'>Sponsors:</div>
       <div>
         <div>
