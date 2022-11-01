@@ -48,8 +48,11 @@ const Navbar = () => {
             />
           </a>
         </div>
-        <ul style={{ color: `${textColor}` }} className="hidden md:flex">
-          <li className="p-3 text-2xl hover:text-blue-600">
+        <ul
+          style={{ color: `${textColor}` }}
+          className="hidden md:flex text-xl"
+        >
+          <li className="p-3 hover:text-blue-600 transition-colors">
             <a
               href="https://www.ieeesrmist.in/#about"
               target="_blank"
@@ -58,10 +61,10 @@ const Navbar = () => {
               About Us
             </a>
           </li>
-          <li className="p-3 text-2xl hover:text-blue-600">
+          <li className="p-3 hover:text-blue-600 transition-colors">
             <a href="#about">About the Event</a>
           </li>
-          <li className="p-3 text-2xl hover:text-blue-600">
+          <li className="p-3 hover:text-blue-600 transition-colors">
             <a href="#sponsors">Sponsors</a>
           </li>
         </ul>
@@ -69,9 +72,9 @@ const Navbar = () => {
         {/* Mobile Button */}
         <div onClick={handleNav} className="block md:hidden z-10">
           {nav ? (
-            <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
+            <AiOutlineClose size={28} style={{ color: `${textColor}` }} />
           ) : (
-            <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
+            <AiOutlineMenu size={28} style={{ color: `${textColor}` }} />
           )}
         </div>
         {/* Mobile Menu */}
