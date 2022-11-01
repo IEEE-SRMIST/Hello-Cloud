@@ -7,10 +7,8 @@ const About = () => {
         About the Event
       </h2>
       <p className="font-[Raleway] font-semibold text-[16px] leading-[18.78px] mt-[80px] text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-        ipsa maxime quo alias vero consectetur? Iure mollitia consequuntur illum
-        sed inventore modi! Ipsum exercitationem vitae quasi voluptatem iure
-        esse aliquam.
+      Eager to delve into the world of cloud computing? Well, “Hello, Cloud” has got it all covered for you, jumping into a wide variety of topics that will get your gears running. 
+      Get acquainted with the industry techniques in the area of cloud computing, learn build highly scalable systems, handle security, and more at "Hello, Cloud!"
       </p>
     </div>
   );
