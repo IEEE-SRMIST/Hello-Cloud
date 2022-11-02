@@ -37,7 +37,11 @@ const Speakers = () => {
       </div>
       <div className="flex mb-20 xl:mb-0 lg:pb-8 text-4xl gap-8">
         {socials.map(({ Icon, url }, index) => (
-          <Icon className="hover:cursor-pointer" onClick={handleOpenUrl(url)} />
+          <Icon
+            className="hover:cursor-pointer"
+            onClick={handleOpenUrl(url)}
+            key={index}
+          />
         ))}
       </div>
       <Footer />
