@@ -13,6 +13,11 @@ const Landing = () => {
             Hello, Cloud!
           </h1>
         </div>
+        <div>
+          <h1 className='md:text-[16px] font-["Raleway"] mt-1'>
+            At MBA Hall, SRM Kattankulathur Campus on 10th November, 2022
+          </h1>
+        </div>
         <div className="mt-2">
           <button
             className="bg-white mt-4 hover:bg-gray-300 border rounded-full px-4 py-2"
