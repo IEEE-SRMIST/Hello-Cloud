@@ -14,7 +14,7 @@ const About = () => {
         has got it all covered for you, jumping into a wide variety of topics
         that will get your gears running. Get acquainted with the industry
         techniques in the area of cloud computing, learn build highly scalable
-        systems, handle security, and more at "Hello, Cloud!" at MBA Hall, SRM Kattankulathur Campus on 10th November, 2022
+        systems, handle security, and more at "Hello, Cloud!" at MBA Hall, SRM Kattankulathur Campus on 10ᵗʰ November, 2022
       </p>
     </div>
   );

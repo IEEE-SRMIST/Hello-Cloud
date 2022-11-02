@@ -15,7 +15,7 @@ const Landing = () => {
         </div>
         <div>
           <h1 className='md:text-[16px] font-["Raleway"] mt-1'>
-            At MBA Hall, SRM Kattankulathur Campus on 10th November, 2022
+            At MBA Hall, SRM Kattankulathur Campus on 10ᵗʰ November, 2022
           </h1>
         </div>
         <div className="mt-2">
