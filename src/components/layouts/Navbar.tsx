@@ -33,31 +33,48 @@ const Navbar = () => {
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <div className="space-x-2">
-          <img src={Logo} alt="IEEE Logo" className="md:h-36 h-24 inline" />
-          <img
-            src={sponser}
-            alt="Sales Force logo"
-            className="md:h-36 h-24 inline "
-          />
+          <a href="https://www.ieeesrmist.in/" target="_blank" rel="noreferrer">
+            <img src={Logo} alt="IEEE Logo" className="md:h-36 h-24 inline" />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/salesforce-student-group/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={sponser}
+              alt="Sales Force logo"
+              className="md:h-36 h-24 inline "
+            />
+          </a>
         </div>
-        <ul style={{ color: `${textColor}` }} className="hidden md:flex">
-          <li className="p-3 text-2xl hover:text-blue-600">
-            <a href="#">About Us</a>
+        <ul
+          style={{ color: `${textColor}` }}
+          className="hidden md:flex text-xl"
+        >
+          <li className="p-3 hover:text-blue-600 transition-colors">
+            <a
+              href="https://www.ieeesrmist.in/#about"
+              target="_blank"
+              rel="noreferrer"
+            >
+              About Us
+            </a>
           </li>
-          <li className="p-3 text-2xl hover:text-blue-600">
-            <a href="#">About the Event</a>
+          <li className="p-3 hover:text-blue-600 transition-colors">
+            <a href="#about">About the Event</a>
           </li>
-          <li className="p-3 text-2xl hover:text-blue-600">
-            <a href="#">Sponsors</a>
+          <li className="p-3 hover:text-blue-600 transition-colors">
+            <a href="#sponsors">Sponsors</a>
           </li>
         </ul>
 
         {/* Mobile Button */}
         <div onClick={handleNav} className="block md:hidden z-10">
           {nav ? (
-            <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
+            <AiOutlineClose size={28} style={{ color: `${textColor}` }} />
           ) : (
-            <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
+            <AiOutlineMenu size={28} style={{ color: `${textColor}` }} />
           )}
         </div>
         {/* Mobile Menu */}
@@ -73,19 +90,25 @@ const Navbar = () => {
               onClick={handleNav}
               className="p-4 text-4xl hover:text-blue-600"
             >
-              <a href="/">About Us</a>
+              <a
+                href="https://www.ieeesrmist.in/#about"
+                target="_blank"
+                rel="noreferrer"
+              >
+                About Us
+              </a>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-4xl hover:text-blue-600"
             >
-              <a href="/#gallery">About the Event</a>
+              <a href="/#about">About the Event</a>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-4xl hover:text-blue-600"
             >
-              <a href="/work">Sponsors</a>
+              <a href="#sponsors">Sponsors</a>
             </li>
           </ul>
         </div>
