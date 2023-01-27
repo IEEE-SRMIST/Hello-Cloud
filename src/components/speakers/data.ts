@@ -1,3 +1,6 @@
+import kaushik from '../../assets/img/kk.png'
+import kunal from '../../assets/img/Kunal.png'
+
 type myType ={
     name:string,
     image : string,
@@ -10,7 +13,7 @@ type myType ={
 const speakers:myType[] = [
     {
         name : 'Kaushik Kumaran',
-        image : '../../assets/img/kkpic-removedbg-.png',
+        image : kaushik,
         des1 : 'Cloud Engineer at Searce Inc',
         des2 : 'Webmaster at IEEE SRM WAD',
         github : 'https://github.com/CodeBuildder',
@@ -19,7 +22,7 @@ const speakers:myType[] = [
     },
     {
         name : 'Kunal Keshan',
-        image : '../../assets/img/KunalBhaiya.png',
+        image : kunal,
         des1 : 'Co-Founder at Codelance Devs',
         des2 : 'Acting Heat at IEEE SRM Computer Society',
         github : 'https://GitHub.com/kunalkeshan',
