@@ -1,6 +1,5 @@
 import React from 'react';
 import KK from '../../assets/img/kkpic-removedbg-.png';
-import Footer from '../layouts/Footer';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { FaGlobe } from 'react-icons/fa';
 
@@ -44,7 +43,6 @@ const Speakers = () => {
           />
         ))}
       </div>
-      <Footer />
     </div>
   );
 };
