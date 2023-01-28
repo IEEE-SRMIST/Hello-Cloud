@@ -1,8 +1,8 @@
 import kaushik from '../../assets/img/kk.png'
 import kunal from '../../assets/img/Kunal.png'
 
-type myType ={
-    name:string,
+interface Speakers {
+    name: string,
     image : string,
     des1 : string,
     des2: string,
@@ -10,7 +10,7 @@ type myType ={
     linkedin : string,
     portfolio : string,
 }
-const speakers:myType[] = [
+const speakers: Speakers[] = [
     {
         name : 'Kaushik Kumaran',
         image : kaushik,
