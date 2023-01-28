@@ -1,8 +1,8 @@
-import kaushik from '../../assets/img/kk.png'
-import kunal from '../../assets/img/Kunal.png'
+import kk from '../../assets/img/kkpic-removedbg-.png';
+import kunal from '../../assets/img/Kunal Bhaiya.png'
 
-interface Speakers {
-    name: string,
+type myType ={
+    name:string,
     image : string,
     des1 : string,
     des2: string,
@@ -13,7 +13,7 @@ interface Speakers {
 const speakers: Speakers[] = [
     {
         name : 'Kaushik Kumaran',
-        image : kaushik,
+        image : kk,
         des1 : 'Cloud Engineer at Searce Inc',
         des2 : 'Webmaster at IEEE SRM WAD',
         github : 'https://github.com/CodeBuildder',
@@ -24,7 +24,7 @@ const speakers: Speakers[] = [
         name : 'Kunal Keshan',
         image : kunal,
         des1 : 'Co-Founder at Codelance Devs',
-        des2 : 'Acting Heat at IEEE SRM Computer Society',
+        des2 : 'Acting Head at IEEE SRM Computer Society',
         github : 'https://GitHub.com/kunalkeshan',
         linkedin : 'https://www.linkedin.com/in/kunalkeshan',
         portfolio : 'https://kunalkeshan.dev'
