@@ -7,6 +7,7 @@ import Navbar from './components/layouts/Navbar';
 import Perks from './components/perks/Perks';
 import Speakers from './components/speakers/Speakers';
 import Sponsors from './components/sponsors/Sponsors';
+import Team from './components/team/Team';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Perks />
       <Sponsors />
       <Speakers />
+      <Team/>
       {/* <Footer /> */}
     </div>
   );
