@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../layouts/Footer';
 import speakers from './data';
 import SpeakerInfo from './Tamplet'
 
@@ -21,7 +20,6 @@ const Speakers = () => {
       <div className='flex flex-col item-center justify-around md:flex-row'>
       {spokeperson}
       </div>
-      <Footer />
     </div>
   );
 };
