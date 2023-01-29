@@ -1,7 +1,7 @@
 import kk from '../../assets/img/kkpic-removedbg-.png';
 import kunal from '../../assets/img/Kunal Bhaiya.png'
 
-type myType ={
+interface Speakers {
     name:string,
     image : string,
     des1 : string,
